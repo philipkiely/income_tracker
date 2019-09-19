@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  root 'application#main'
+  get '/about/', to: 'about#show'
+  get '/pricing/', to: 'pricing#show'
+  root 'index#show'
 end
