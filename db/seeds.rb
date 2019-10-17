@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+invoices = Invoice.create([{income: 200, hours: 5, admin: 2},
+                           {income: 500, hours: 10, admin: 5},
+                           {income: 250, hours: 8, admin: 1},
+                           {income: 400, hours: 6, admin: 4},
+                           {income: 100, hours: 1, admin: 1},])
