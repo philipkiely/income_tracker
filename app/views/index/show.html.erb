@@ -2,6 +2,22 @@
 <p>
 The income tracker is a simple system for letting project-based freelancers calculate their effective hourly rate. 
 </p>
+<form action="/new" method="post" class="form-inline">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <div class="form-group mr-2">
+        <input type="number" placeholder="Income" name="income" class="form-control"/>
+    </div>
+    <div class="form-group mr-2">
+        <input type="number" placeholder="Hours" name="hours" class="form-control"/>
+    </div>
+    <div class="form-group mr-2">
+        <input type="number" placeholder="Admin Hours" name="admin" class="form-control"/>
+    </div>
+    <button type="submit" class="btn btn-primary">Record Job</button>
+</form>
+<p>
+    
+</p>
 <table class="table">
   <thead>
     <tr>
