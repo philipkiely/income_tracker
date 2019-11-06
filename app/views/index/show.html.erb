@@ -5,13 +5,13 @@ The income tracker is a simple system for letting project-based freelancers calc
 <form action="/new" method="post" class="form-inline">
     <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
     <div class="form-group mr-2">
-        <input type="number" placeholder="Income" name="income" class="form-control"/>
+        <input type="number" placeholder="Income" label="income" name="income" class="form-control"/>
     </div>
     <div class="form-group mr-2">
-        <input type="number" placeholder="Hours" name="hours" class="form-control"/>
+        <input type="number" placeholder="Hours" label="hours" name="hours" class="form-control"/>
     </div>
     <div class="form-group mr-2">
-        <input type="number" placeholder="Admin Hours" name="admin" class="form-control"/>
+        <input type="number" placeholder="Admin Hours" label="admin" name="admin" class="form-control"/>
     </div>
     <button type="submit" class="btn btn-primary">Record Job</button>
 </form>
