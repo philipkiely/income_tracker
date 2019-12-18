@@ -1,24 +1,3 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The site contains a header, footer, color scheme, text, links, an image, a form, a button, and a table. The styling is provided by Bootstrap 4, a CSS library for creating responsive sites, so the site looks good on mobile as well. Other than that, the website is entirely Ruby on Rails. All three pages are generated using HTML embedded in a general template using the Rails templating language, and the table is generated from the contents of a database, which is described and validated by a model and passed to the view by the controller in an example of MVC architecture. Finally, the form performs a POST action to reload the page with newly updated data. In total, these components comprise a site that demonstrates the basic capabilities of the Rails framework. 
